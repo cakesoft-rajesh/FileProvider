@@ -10,17 +10,6 @@ The files can reside in one of this places:
 - root of your app's external storage area. The root path of this subdirectory is the same as the value returned by `Context.getExternalFilesDir()`.
 - root of your app's external cache area. The root path of this subdirectory is the same as the value returned by `Context.getExternalCacheDir()`.
 
-## Getting started
-
-`$ npm install react-native-file-provider --save`
-
-### Mostly automatic installation
-
-`$ react-native link react-native-file-provider`
-
-### Manual installation
-
-
 #### Android
 
 1. Append the following lines to `android/settings.gradle`:
